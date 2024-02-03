@@ -15,7 +15,9 @@ void setup() {
 
   pinMode(35, INPUT); // Digital Input 1
   pinMode(34, INPUT); // Digital Input 2
+
   pinMode(21, INPUT); // ADS1115 Interrupt
+
   pinMode(13, OUTPUT); // RS-485 flow control
 
   digitalWrite(13, HIGH);
